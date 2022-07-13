@@ -20,6 +20,8 @@ header{
 }
 
 .nav-section{
+    display: flex;
+    align-items: center;
     height: 55%;
     color: white;
 }
@@ -45,7 +47,7 @@ main{
     flex-direction: row;
     height: 220vh;
     width: 100%;
-    padding: 10%;
+    padding: 7% 10% 0% 10%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -132,9 +134,43 @@ main{
     color: grey;
     text-decoration: line-through;
 }
-
-
-
-
-
 /* / Main */
+
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 15vh;
+    border: solid black 2px;
+    background-color: rgb(26, 26, 26);
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 150%;
+    width: 35%;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-section:last-of-type{
+    align-items: flex-end;
+}
+
+
+/* / Footer */
+
+
+
+
+
